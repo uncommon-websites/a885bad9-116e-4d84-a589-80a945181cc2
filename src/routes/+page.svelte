@@ -4,7 +4,7 @@
     import FeatureRow from '$lib/components/FeatureRow.svelte';
 </script>
 
-<div class="bg-[var(--color-canopy-dark)] min-h-screen flex flex-col">
+<div class="bg-[var(--color-tactic-dark)] min-h-screen flex flex-col">
     <Navbar />
 
     <main class="flex-grow">
@@ -14,29 +14,29 @@
                 <div class="max-w-4xl mx-auto text-center">
                     <!-- Search/Notification Pill -->
                     <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/10 rounded-full px-4 py-1.5 mb-8">
-                        <span class="w-2 h-2 rounded-full bg-[var(--color-canopy-lime)]"></span>
-                        <span class="text-white text-sm font-medium">Canopy 2.0</span>
-                        <span class="text-gray-400 text-sm">is here</span>
+                        <span class="w-2 h-2 rounded-full bg-[var(--color-tactic-primary)]"></span>
+                        <span class="text-white text-sm font-medium">300+ Teams</span>
+                        <span class="text-gray-400 text-sm">trust Tactic Systems</span>
                         <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                     </div>
 
                     <h1 class="text-5xl md:text-7xl font-bold text-white tracking-tight mb-6 text-balance">
-                        Build better B2B lending products.
+                        Turn sales data into actionable insights.
                     </h1>
                     
                     <p class="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed text-balance">
-                        The most flexible loan management system for commercial lenders. Get everything you need to operate & scale secured lending, installment, and hybrid products. Your secret weapon for everything post-origination.
+                        Centralize your business data into interactive dashboards with automated API integration. Built for automotive dealerships and sales teams who need real-time performance insights without the complexity.
                     </p>
                     
                     <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                        <button class="bg-white hover:bg-gray-100 text-black px-6 py-3 rounded-full font-medium transition-colors flex items-center gap-2">
-                            Get started
+                        <button class="bg-[var(--color-tactic-primary)] hover:bg-[var(--color-tactic-primary-hover)] text-white px-6 py-3 rounded-full font-medium transition-colors flex items-center gap-2">
+                            Start Free Trial
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M5 12h14M12 5l7 7-7 7"/>
                             </svg>
                         </button>
                         <button class="bg-transparent border border-white/20 hover:bg-white/10 text-white px-6 py-3 rounded-full font-medium transition-colors flex items-center gap-2">
-                            Explore Canopy 2.0
+                            View Demo
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M5 12h14M12 5l7 7-7 7"/>
                             </svg>
@@ -52,11 +52,16 @@
                     <div class="w-[350px] md:w-[450px] flex-shrink-0 rounded-xl overflow-hidden shadow-2xl border border-white/10 transform -rotate-2 mt-8">
                         <div class="bg-white p-4">
                             <div class="flex items-center justify-between mb-4">
-                                <div class="h-2 w-20 bg-gray-200 rounded"></div>
-                                <div class="h-8 w-24 bg-[var(--color-canopy-lime)]/20 rounded text-[var(--color-canopy-lime)] text-xs flex items-center justify-center font-bold">$1,544.45</div>
+                                <div class="text-xs font-semibold text-gray-600">Team Performance</div>
+                                <div class="h-8 w-24 bg-[var(--color-tactic-primary)]/20 rounded text-[var(--color-tactic-primary)] text-xs flex items-center justify-center font-bold">+24.5%</div>
                             </div>
                             <div class="space-y-3">
-                                <div class="h-24 bg-gray-100 rounded-lg w-full"></div>
+                                <div class="h-24 bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg w-full flex items-end justify-around p-2">
+                                    <div class="w-8 bg-[var(--color-tactic-primary)] rounded-t" style="height: 60%"></div>
+                                    <div class="w-8 bg-[var(--color-tactic-primary)]/70 rounded-t" style="height: 80%"></div>
+                                    <div class="w-8 bg-[var(--color-tactic-primary)]/50 rounded-t" style="height: 45%"></div>
+                                    <div class="w-8 bg-[var(--color-tactic-primary)]/30 rounded-t" style="height: 70%"></div>
+                                </div>
                                 <div class="h-4 w-full bg-gray-50 rounded"></div>
                                 <div class="h-4 w-2/3 bg-gray-50 rounded"></div>
                             </div>
@@ -66,24 +71,27 @@
                     <!-- Card 2 (Center) -->
                     <div class="w-[350px] md:w-[450px] flex-shrink-0 rounded-xl overflow-hidden shadow-2xl border border-white/10 z-10">
                         <div class="bg-white h-full flex flex-col">
-                            <div class="bg-[var(--color-canopy-lime)] p-6">
+                            <div class="bg-[var(--color-tactic-primary)] p-6">
                                 <div class="flex justify-between items-center">
-                                    <div class="h-6 w-24 bg-black/10 rounded"></div>
-                                    <div class="h-8 w-8 bg-black/10 rounded-full"></div>
+                                    <div class="text-white font-bold text-sm">Sales Dashboard</div>
+                                    <div class="h-8 w-8 bg-white/20 rounded-full"></div>
                                 </div>
                             </div>
                             <div class="p-6 flex-grow">
-                                <div class="flex gap-4 mb-6">
-                                    <div class="w-1/3 space-y-2">
-                                        <div class="h-2 w-full bg-gray-100 rounded"></div>
-                                        <div class="h-2 w-2/3 bg-gray-100 rounded"></div>
+                                <div class="grid grid-cols-2 gap-4 mb-6">
+                                    <div class="space-y-2">
+                                        <div class="text-xs text-gray-500">Total Sales</div>
+                                        <div class="text-2xl font-bold text-gray-900">$2.4M</div>
                                     </div>
-                                    <div class="w-2/3 space-y-2">
-                                        <div class="h-8 w-full bg-gray-50 rounded border border-gray-100"></div>
-                                        <div class="h-2 w-full bg-gray-100 rounded mt-2"></div>
-                                        <div class="h-2 w-full bg-gray-100 rounded"></div>
-                                        <div class="h-2 w-full bg-gray-100 rounded"></div>
+                                    <div class="space-y-2">
+                                        <div class="text-xs text-gray-500">Conversions</div>
+                                        <div class="text-2xl font-bold text-gray-900">342</div>
                                     </div>
+                                </div>
+                                <div class="space-y-2">
+                                    <div class="h-2 w-full bg-gray-100 rounded"></div>
+                                    <div class="h-2 w-full bg-gray-100 rounded"></div>
+                                    <div class="h-2 w-full bg-gray-100 rounded"></div>
                                 </div>
                             </div>
                         </div>
@@ -93,11 +101,24 @@
                     <div class="w-[350px] md:w-[450px] flex-shrink-0 rounded-xl overflow-hidden shadow-2xl border border-white/10 transform rotate-2 mt-8">
                         <div class="bg-white p-4">
                             <div class="flex items-center justify-between mb-4">
-                                <div class="h-2 w-20 bg-gray-200 rounded"></div>
-                                <div class="h-8 w-24 bg-[var(--color-canopy-lime)]/20 rounded text-[var(--color-canopy-lime)] text-xs flex items-center justify-center font-bold">$1,544.45</div>
+                                <div class="text-xs font-semibold text-gray-600">Monthly KPIs</div>
+                                <div class="h-8 w-24 bg-green-100 rounded text-green-600 text-xs flex items-center justify-center font-bold">On Track</div>
                             </div>
                             <div class="space-y-3">
-                                <div class="h-24 bg-gray-100 rounded-lg w-full"></div>
+                                <div class="h-24 bg-gray-100 rounded-lg w-full p-3 flex flex-col justify-around">
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-xs text-gray-500">Avg Response</span>
+                                        <div class="h-2 w-24 bg-[var(--color-tactic-primary)] rounded-full"></div>
+                                    </div>
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-xs text-gray-500">Close Rate</span>
+                                        <div class="h-2 w-20 bg-[var(--color-tactic-primary)] rounded-full"></div>
+                                    </div>
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-xs text-gray-500">Follow-ups</span>
+                                        <div class="h-2 w-16 bg-[var(--color-tactic-primary)] rounded-full"></div>
+                                    </div>
+                                </div>
                                 <div class="h-4 w-full bg-gray-50 rounded"></div>
                                 <div class="h-4 w-2/3 bg-gray-50 rounded"></div>
                             </div>
@@ -110,77 +131,64 @@
         <!-- Logos Section -->
         <section class="py-12 border-y border-white/5 bg-black/20">
             <div class="container mx-auto px-6">
-                <div class="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-50 grayscale">
-                    <!-- Novo -->
-                    <svg class="h-6 md:h-8 w-auto text-white" viewBox="0 0 100 30" fill="currentColor">
-                        <path d="M10,5 L15,5 L15,25 L10,25 L10,5 Z M25,5 L40,5 L40,10 L30,10 L30,20 L40,20 L40,25 L25,25 L25,5 Z M50,5 L55,5 L60,25 L55,25 L52.5,15 L50,25 L45,25 L50,5 Z M70,5 L85,5 L85,25 L70,25 L70,20 L80,20 L80,10 L70,10 L70,5 Z" />
-                    </svg>
-                    <!-- Mercury -->
-                    <svg class="h-6 md:h-8 w-auto text-white" viewBox="0 0 100 30" fill="currentColor">
-                         <circle cx="15" cy="15" r="10" />
-                         <rect x="35" y="5" width="50" height="20" />
-                    </svg>
-                    <!-- Bluevine -->
-                    <svg class="h-6 md:h-8 w-auto text-white" viewBox="0 0 100 30" fill="currentColor">
-                        <rect x="10" y="10" width="20" height="10" />
-                        <rect x="40" y="5" width="50" height="20" />
-                    </svg>
-                    <!-- Flexport -->
-                    <svg class="h-6 md:h-8 w-auto text-white" viewBox="0 0 100 30" fill="currentColor">
-                        <path d="M10,5 L30,5 L30,10 L15,10 L15,12.5 L25,12.5 L25,17.5 L15,17.5 L15,25 L10,25 L10,5 Z" />
-                         <rect x="40" y="5" width="50" height="20" />
-                    </svg>
-                    <!-- Prime -->
-                    <svg class="h-6 md:h-8 w-auto text-white" viewBox="0 0 100 30" fill="currentColor">
-                        <rect x="10" y="5" width="80" height="20" />
-                    </svg>
+                <p class="text-center text-gray-500 text-sm mb-8">Trusted by leading automotive brands</p>
+                <div class="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-60">
+                    <div class="text-white font-bold text-2xl tracking-wider">BMW</div>
+                    <div class="text-white font-bold text-2xl tracking-wider">MINI</div>
+                    <div class="text-white font-bold text-2xl tracking-wider">VOLVO</div>
+                    <div class="text-white font-bold text-2xl tracking-wider">BYD</div>
+                    <div class="text-white font-bold text-2xl tracking-wider">CHEVROLET</div>
                 </div>
             </div>
         </section>
 
-        <!-- Canopy Core Section -->
+        <!-- Tactic Platform Section -->
         <section class="py-32 relative overflow-hidden">
             <div class="container mx-auto px-6 relative z-10">
                 <div class="text-center mb-24">
-                    <h2 class="text-[var(--color-canopy-lime)] font-mono text-xs tracking-[0.2em] uppercase mb-6">Canopy Core</h2>
-                    <h3 class="text-4xl md:text-6xl font-bold text-white mb-2 tracking-tight">A loan management system.</h3>
-                    <h3 class="text-4xl md:text-6xl font-bold text-gray-600 tracking-tight">And so much more.</h3>
+                    <h2 class="text-[var(--color-tactic-primary)] font-mono text-xs tracking-[0.2em] uppercase mb-6">Tactic Platform</h2>
+                    <h3 class="text-4xl md:text-6xl font-bold text-white mb-2 tracking-tight">A business intelligence platform.</h3>
+                    <h3 class="text-4xl md:text-6xl font-bold text-gray-600 tracking-tight">Built for sales teams.</h3>
                 </div>
 
                 <div class="grid md:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
-                    <!-- Purple Card -->
-                    <div class="bg-gradient-to-br from-[#7C3AED] to-[#4C1D95] rounded-3xl p-12 aspect-[4/3] relative overflow-hidden flex items-center justify-center shadow-2xl">
+                    <!-- Dashboard Card -->
+                    <div class="bg-gradient-to-br from-[var(--color-tactic-primary)] to-[var(--color-tactic-primary-hover)] rounded-3xl p-12 aspect-[4/3] relative overflow-hidden flex items-center justify-center shadow-2xl">
                         <!-- Abstract UI Elements -->
                         <div class="relative z-10 w-full max-w-[320px]">
-                            <!-- Credit Card -->
+                            <!-- Dashboard Card -->
                             <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-6 mb-8 shadow-xl relative overflow-hidden group hover:scale-105 transition-transform duration-500">
-                                <div class="absolute top-0 right-0 p-6 opacity-50">
-                                    <svg class="w-12 h-8 text-white" viewBox="0 0 48 32" fill="currentColor">
-                                        <path d="M32 0H16C7.163 0 0 7.163 0 16s7.163 16 16 16h16c8.837 0 16-7.163 16-16S40.837 0 32 0z" fill-opacity="0.5"/>
-                                        <circle cx="16" cy="16" r="16" fill-opacity="0.5"/>
-                                    </svg>
+                                <div class="text-white/80 text-xs uppercase tracking-wider font-medium mb-4">Real-Time Analytics</div>
+                                <div class="grid grid-cols-2 gap-4 mb-4">
+                                    <div>
+                                        <div class="text-white/60 text-[10px] uppercase">Sales Today</div>
+                                        <div class="text-white font-bold text-2xl">$47.2K</div>
+                                    </div>
+                                    <div>
+                                        <div class="text-white/60 text-[10px] uppercase">Conversions</div>
+                                        <div class="text-white font-bold text-2xl">23</div>
+                                    </div>
                                 </div>
-                                <div class="w-12 h-8 bg-[#D4AF37] rounded-md mb-8 relative z-10"></div>
-                                <div class="space-y-1 relative z-10">
-                                    <div class="text-white/60 text-[10px] uppercase tracking-wider font-medium">Card Holder</div>
-                                    <div class="text-white font-mono text-lg tracking-widest">ARLENE MCCOY</div>
+                                <div class="h-16 flex items-end gap-1">
+                                    {#each [40, 60, 30, 70, 50, 80, 65, 90] as h}
+                                        <div class="w-full bg-white/40 rounded-t" style="height: {h}%"></div>
+                                    {/each}
                                 </div>
-                                <div class="absolute bottom-6 right-6 text-white font-bold italic text-2xl">VISA</div>
                             </div>
                             
                             <!-- Floating Pills -->
                             <div class="relative">
                                 <div class="absolute -left-4 top-0 bg-white text-black px-5 py-2.5 rounded-full text-sm font-semibold shadow-lg flex items-center gap-2 transform -rotate-2">
-                                    <div class="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
-                                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z"/></svg>
+                                    <div class="w-5 h-5 rounded-full bg-[var(--color-tactic-primary)]/20 flex items-center justify-center text-[var(--color-tactic-primary)]">
+                                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/><path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"/></svg>
                                     </div>
-                                    Installment loans
+                                    50+ Visualizations
                                 </div>
                                 <div class="absolute -right-4 top-12 bg-white/10 backdrop-blur-md text-white px-5 py-2.5 rounded-full text-sm font-semibold border border-white/20 flex items-center gap-2 transform rotate-2">
-                                    <div class="w-5 h-5 rounded-full bg-purple-500/30 flex items-center justify-center text-purple-200">
-                                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"/></svg>
+                                    <div class="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center">
+                                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"/></svg>
                                     </div>
-                                    Working capital
+                                    API Integration
                                 </div>
                             </div>
                         </div>
@@ -188,9 +196,9 @@
 
                     <!-- Text Content -->
                     <div class="space-y-8">
-                        <h3 class="text-4xl md:text-5xl font-bold text-white tracking-tight">Scale with flexibility.</h3>
+                        <h3 class="text-4xl md:text-5xl font-bold text-white tracking-tight">Data-driven decisions in real-time.</h3>
                         <p class="text-gray-400 text-lg leading-relaxed max-w-lg">
-                            Things change. Markets and borrower needs evolve. Canopy provides modern lending built to adapt and grow with you and your customers.
+                            From individual sales advisors to entire dealerships, Tactic Systems aggregates your data into actionable insights. Track performance, measure KPIs, and drive results with automated reporting.
                         </p>
                     </div>
                 </div>
@@ -204,13 +212,13 @@
                 <div class="max-w-4xl mb-24">
                     <div class="flex items-center gap-4 mb-6">
                         <div class="h-px w-12 bg-gray-300"></div>
-                        <span class="text-gray-500 font-mono text-xs tracking-[0.2em] uppercase">CanopyOS</span>
+                        <span class="text-gray-500 font-mono text-xs tracking-[0.2em] uppercase">Platform Features</span>
                     </div>
-                    <h2 class="text-4xl md:text-6xl font-bold text-gray-900 mb-2 tracking-tight">One home for operating and scaling lending products.</h2>
-                    <h2 class="text-4xl md:text-6xl font-bold text-gray-400 tracking-tight mb-8">However complex.</h2>
+                    <h2 class="text-4xl md:text-6xl font-bold text-gray-900 mb-2 tracking-tight">Everything you need to track, analyze, and optimize performance.</h2>
+                    <h2 class="text-4xl md:text-6xl font-bold text-gray-400 tracking-tight mb-8">All in one platform.</h2>
                     
                     <a href="#" class="inline-flex items-center gap-2 text-sm font-semibold border-b border-black pb-0.5 hover:text-gray-600 transition-colors">
-                        Explore our platform
+                        Explore features
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14M12 5l7 7-7 7"/>
                         </svg>
@@ -223,69 +231,69 @@
                     <div class="hidden lg:block w-64 flex-shrink-0">
                         <div class="sticky top-32 space-y-4">
                             <div class="flex items-center gap-2 text-sm font-semibold text-black border-l-2 border-black pl-4 py-1">
-                                <span class="w-1.5 h-1.5 rounded-full bg-[var(--color-canopy-lime)]"></span>
-                                Collateral Management
+                                <span class="w-1.5 h-1.5 rounded-full bg-[var(--color-tactic-primary)]"></span>
+                                Real-Time Dashboards
                             </div>
-                            <a href="#" class="block text-sm text-gray-500 pl-4 py-1 hover:text-black border-l-2 border-transparent hover:border-gray-200 transition-colors">Canopy Connect</a>
-                            <a href="#" class="block text-sm text-gray-500 pl-4 py-1 hover:text-black border-l-2 border-transparent hover:border-gray-200 transition-colors">DataDirect</a>
-                            <a href="#" class="block text-sm text-gray-500 pl-4 py-1 hover:text-black border-l-2 border-transparent hover:border-gray-200 transition-colors">LoanLab</a>
-                            <a href="#" class="block text-sm text-gray-500 pl-4 py-1 hover:text-black border-l-2 border-transparent hover:border-gray-200 transition-colors">Preview</a>
-                            <a href="#" class="block text-sm text-gray-500 pl-4 py-1 hover:text-black border-l-2 border-transparent hover:border-gray-200 transition-colors">SafeGuard</a>
+                            <a href="#" class="block text-sm text-gray-500 pl-4 py-1 hover:text-black border-l-2 border-transparent hover:border-gray-200 transition-colors">API Integration</a>
+                            <a href="#" class="block text-sm text-gray-500 pl-4 py-1 hover:text-black border-l-2 border-transparent hover:border-gray-200 transition-colors">Performance Tracking</a>
+                            <a href="#" class="block text-sm text-gray-500 pl-4 py-1 hover:text-black border-l-2 border-transparent hover:border-gray-200 transition-colors">Data Visualization</a>
+                            <a href="#" class="block text-sm text-gray-500 pl-4 py-1 hover:text-black border-l-2 border-transparent hover:border-gray-200 transition-colors">Automated Reports</a>
+                            <a href="#" class="block text-sm text-gray-500 pl-4 py-1 hover:text-black border-l-2 border-transparent hover:border-gray-200 transition-colors">Team Analytics</a>
                         </div>
                     </div>
 
                     <!-- Feature Cards -->
                     <div class="flex-grow space-y-8">
                         <FeatureRow 
-                            title="Collateral Management" 
-                            description="Unify your loan tape with collateral. Canopy is the only LMS that seamlessly integrates loan tapes with collateral, streamlining secured lending processes."
-                            icon="lock"
-                            image="collateral"
-                        />
-                         <FeatureRow 
-                            title="Canopy Connect" 
-                            description="Drop manual work. Canopy Connect lets you design custom workflows that automate loan tasks, so you can spend your time on other things."
-                            icon="connect"
-                            image="connect"
-                        />
-                         <FeatureRow 
-                            title="DataDirect" 
-                            description="Present the insights that matter. Generate ready-made reports that steer your upsell or cross-sell strategy. DataDirect makes your loan account insights count."
+                            title="Real-Time Dashboards" 
+                            description="Monitor performance instantly. Interactive dashboards provide live insights into sales metrics, team performance, and KPIs with granular data from brand to individual advisor level."
                             icon="data"
                             image="data"
                         />
                          <FeatureRow 
-                            title="LoanLab" 
-                            description="Innovate, simulate, operate. Simulate the entire lifecycle of a loan, test different policies and actions, and observe the effects over time (and in real time)."
-                            icon="lab"
-                            image="lab"
+                            title="API Integration" 
+                            description="Connect seamlessly with your systems. Powerful API integration with CRM and ERP platforms automates data collection, eliminating manual entry and ensuring accuracy."
+                            icon="connect"
+                            image="connect"
                         />
                          <FeatureRow 
-                            title="Preview" 
-                            description="Get ahead of borrowing decisions. Preview an account before committing major changes to production, creating more transparency and better decision-making."
+                            title="Performance Tracking" 
+                            description="Measure what matters. Track individual sales advisor performance, team metrics, and conversion rates with detailed monthly KPI tracking and advisor-level filtering."
                             icon="preview"
                             image="preview"
                         />
                          <FeatureRow 
-                            title="SafeGuard" 
-                            description="Get accurate calculations. Align all calculations with the business lending scenarios and edge cases that matter via always-on SafeGuard tests."
+                            title="Data Visualization" 
+                            description="See your data clearly. Choose from 50+ charts, tables, and visualization options to present insights that drive action and improve decision-making."
+                            icon="lab"
+                            image="lab"
+                        />
+                         <FeatureRow 
+                            title="Automated Reports" 
+                            description="Save time with automation. Automated report building and email feedback systems keep your team informed without manual effort, improving engagement and accountability."
                             icon="guard"
                             image="guard"
+                        />
+                         <FeatureRow 
+                            title="Team Analytics" 
+                            description="Understand team dynamics. Analyze performance patterns, identify top performers, and spot areas for improvement with comprehensive team-level analytics and historical data."
+                            icon="lock"
+                            image="collateral"
                         />
                     </div>
                 </div>
 
-                <!-- Embed Section -->
+                <!-- Pricing Section -->
                 <div class="mt-32 text-center max-w-4xl mx-auto mb-24">
-                    <div class="w-24 h-24 mx-auto bg-gradient-to-br from-blue-100 to-purple-100 rounded-full flex items-center justify-center mb-8 relative">
+                    <div class="w-24 h-24 mx-auto bg-gradient-to-br from-[var(--color-tactic-primary)]/20 to-[var(--color-tactic-primary)]/10 rounded-full flex items-center justify-center mb-8 relative">
                         <div class="absolute inset-0 bg-white/50 blur-xl rounded-full"></div>
-                        <svg class="w-10 h-10 text-blue-600 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                        <svg class="w-10 h-10 text-[var(--color-tactic-primary)] relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </div>
                     <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">
-                        Embed modern lending and credit products — whether you're a fintech, digital bank, or vertical SaaS company.
+                        Start free, scale as you grow. From 5 team members to unlimited enterprise solutions.
                     </h2>
                     <button class="bg-white border border-gray-200 hover:border-gray-400 text-black px-6 py-3 rounded-full font-medium transition-colors flex items-center gap-2 mx-auto">
-                        Explore use cases
+                        View pricing plans
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14M12 5l7 7-7 7"/>
                         </svg>
@@ -294,30 +302,31 @@
 
                 <!-- Trusted By Section -->
                 <div class="mb-32">
-                    <p class="text-xl text-gray-500 mb-12">Trusted by modern lending teams. Learn more from our customers.</p>
+                    <p class="text-xl text-gray-500 mb-12">Trusted by automotive dealerships and sales teams worldwide.</p>
                     
                     <div class="grid md:grid-cols-3 gap-6">
-                        <!-- Flexport Card (Large) -->
+                        <!-- BMW Card (Large) -->
                         <div class="md:col-span-2 bg-[#0A0A0A] rounded-3xl p-10 relative overflow-hidden group min-h-[400px] flex flex-col justify-end">
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
                             
                             <div class="relative z-10">
                                 <div class="flex items-center gap-4 mb-6">
-                                    <div class="text-white font-bold text-2xl tracking-tight">flexport.</div>
-                                    <div class="w-8 h-8 rounded-full bg-[var(--color-canopy-lime)] flex items-center justify-center text-black font-bold">+</div>
+                                    <div class="text-white font-bold text-3xl tracking-wider">BMW</div>
+                                    <div class="w-8 h-8 rounded-full bg-[var(--color-tactic-primary)] flex items-center justify-center text-white font-bold">+</div>
                                     <div class="flex items-center gap-2 text-white font-semibold text-xl tracking-tight">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M2 17L12 22L22 17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M2 12L12 17L22 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <rect x="3" y="3" width="8" height="8" rx="1" stroke="white" stroke-width="2"/>
+                                            <rect x="13" y="3" width="8" height="8" rx="1" stroke="white" stroke-width="2"/>
+                                            <rect x="3" y="13" width="8" height="8" rx="1" stroke="white" stroke-width="2"/>
+                                            <rect x="13" y="13" width="8" height="8" rx="1" stroke="white" stroke-width="2"/>
                                         </svg>
-                                        Canopy
+                                        Tactic Systems
                                     </div>
                                 </div>
                                 <h3 class="text-3xl font-bold text-white mb-4 max-w-md">
-                                    <span class="text-[#F5A623]">flexport.</span><br>
-                                    How Flexport leveraged Canopy to scale its lending program
+                                    "Detailed sales advisor measurement has improved our team's performance tracking significantly."
                                 </h3>
+                                <p class="text-gray-400 mb-4">— Sales Manager, BMW Dealership</p>
                                 <div class="w-10 h-10 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition-colors">
                                     <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
                                 </div>
@@ -326,22 +335,28 @@
 
                         <!-- Smaller Cards -->
                         <div class="space-y-6">
-                            <!-- Card 2 -->
-                            <div class="bg-[#0A0A0A] rounded-3xl p-8 relative overflow-hidden group h-[240px] flex flex-col justify-end">
-                                <div class="absolute inset-0 bg-gradient-to-br from-blue-900/40 to-black"></div>
-                                <div class="relative z-10 flex justify-between items-end">
-                                    <div class="w-12 h-12 rounded-full bg-yellow-400/20 blur-xl absolute -left-2 -bottom-2"></div>
-                                    <div class="w-10 h-10 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition-colors ml-auto">
+                            <!-- Volvo Card -->
+                            <div class="bg-[#0A0A0A] rounded-3xl p-8 relative overflow-hidden group h-[240px] flex flex-col justify-between">
+                                <div class="absolute inset-0 bg-gradient-to-br from-[var(--color-tactic-primary)]/20 to-black"></div>
+                                <div class="relative z-10">
+                                    <div class="text-white font-bold text-xl mb-2">VOLVO</div>
+                                    <p class="text-gray-400 text-sm">"Consolidated reporting eliminates the need for multiple tools."</p>
+                                </div>
+                                <div class="relative z-10 flex justify-end">
+                                    <div class="w-10 h-10 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition-colors">
                                         <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Card 3 -->
-                            <div class="bg-[#0A0A0A] rounded-3xl p-8 relative overflow-hidden group h-[240px] flex flex-col justify-end">
-                                <div class="absolute inset-0 bg-gradient-to-br from-green-900/40 to-black"></div>
-                                <div class="relative z-10 flex justify-between items-end">
-                                    <div class="w-12 h-12 rounded-full bg-green-400/20 blur-xl absolute -left-2 -bottom-2"></div>
-                                    <div class="w-10 h-10 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition-colors ml-auto">
+                            <!-- Chevrolet Card -->
+                            <div class="bg-[#0A0A0A] rounded-3xl p-8 relative overflow-hidden group h-[240px] flex flex-col justify-between">
+                                <div class="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-black"></div>
+                                <div class="relative z-10">
+                                    <div class="text-white font-bold text-xl mb-2">CHEVROLET</div>
+                                    <p class="text-gray-400 text-sm">"Monthly KPI tracking with advisor-level filtering is a game changer."</p>
+                                </div>
+                                <div class="relative z-10 flex justify-end">
+                                    <div class="w-10 h-10 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition-colors">
                                         <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
                                     </div>
                                 </div>
@@ -353,20 +368,20 @@
                 <!-- Banner -->
                 <div class="bg-[#0A0A0A] rounded-3xl p-12 md:p-20 relative overflow-hidden mb-32 text-center">
                     <div class="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-10"></div>
-                    <div class="absolute left-0 top-0 w-64 h-64 bg-yellow-500/10 blur-[100px] rounded-full"></div>
-                    <div class="absolute right-0 bottom-0 w-64 h-64 bg-blue-500/10 blur-[100px] rounded-full"></div>
+                    <div class="absolute left-0 top-0 w-64 h-64 bg-[var(--color-tactic-primary)]/10 blur-[100px] rounded-full"></div>
+                    <div class="absolute right-0 bottom-0 w-64 h-64 bg-[var(--color-tactic-primary)]/10 blur-[100px] rounded-full"></div>
                     
                     <div class="relative z-10 max-w-3xl mx-auto">
                         <h2 class="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight">
-                            Create flexible lending products. <span class="text-[var(--color-canopy-lime)]">With less work.</span>
+                            Powerful API integration. <span class="text-[var(--color-tactic-primary)]">Seamless data flow.</span>
                         </h2>
                         <p class="text-gray-400 mb-10">
-                            Purpose built for developers, our modern, low-code API lets you launch fast and scale with ease.
+                            Built for developers and sales teams alike. Our robust API connects with your CRM and ERP systems for automated, real-time data synchronization.
                         </p>
                         <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/10 rounded-full px-4 py-2 text-white text-sm hover:bg-white/20 transition-colors cursor-pointer">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-                            Canopy Docs
-                            <kbd class="bg-black/30 px-1.5 py-0.5 rounded text-xs text-gray-400 font-mono">K</kbd>
+                            API Documentation
+                            <kbd class="bg-black/30 px-1.5 py-0.5 rounded text-xs text-gray-400 font-mono">D</kbd>
                         </div>
                     </div>
                 </div>
@@ -374,18 +389,18 @@
                 <!-- Integrations -->
                 <div class="text-center mb-32">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                        Card issuers. Payments processors.<br>
-                        Credit reporting. <span class="text-gray-400">Whoever you're<br>partnered with, Canopy connects.</span>
+                        CRM systems. ERP platforms.<br>
+                        Analytics tools. <span class="text-gray-400">Whatever you use,<br>Tactic Systems connects.</span>
                     </h2>
                     <button class="bg-gray-100 hover:bg-gray-200 text-black px-6 py-2 rounded-full text-sm font-medium transition-colors flex items-center gap-2 mx-auto mb-16 mt-8">
-                        Explore all integrations
+                        View all integrations
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14M12 5l7 7-7 7"/>
                         </svg>
                     </button>
 
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-gray-200 border border-gray-200 rounded-2xl overflow-hidden">
-                        {#each ['checkout.com', 'dwolla', 'modern treasury', 'stripe', 'galileo', 'intercom', 'square', 'tableau'] as logo}
+                        {#each ['Salesforce', 'Google Maps', 'AWS', 'Google Analytics', 'Microsoft', 'SAP', 'Oracle', 'Tableau'] as logo}
                         <div class="bg-[#F9FAFB] p-12 flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
                             <span class="font-bold text-xl uppercase tracking-wider">{logo}</span>
                         </div>
@@ -395,7 +410,7 @@
 
                 <!-- Blog Section -->
                 <div class="mb-12">
-                    <h2 class="text-4xl font-bold text-gray-900 mb-12">Learn more about next-gen lending.</h2>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-12">Learn more about sales analytics.</h2>
                     <div class="grid md:grid-cols-2 gap-8">
                         <!-- Post 1 -->
                         <div class="group cursor-pointer">
@@ -403,25 +418,25 @@
                                 <div class="absolute inset-0 flex items-center justify-center">
                                     <div class="grid grid-cols-6 gap-4 opacity-50">
                                         {#each Array(24) as _}
-                                            <svg class="w-6 h-6 text-blue-600 transform -rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
+                                            <svg class="w-6 h-6 text-[var(--color-tactic-primary)] transform -rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
                                         {/each}
                                     </div>
                                 </div>
                             </div>
                             <div class="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Industry Insights</div>
-                            <h3 class="text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">Middle-market lending is a windfall for non-bank lenders</h3>
+                            <h3 class="text-2xl font-bold text-gray-900 group-hover:text-[var(--color-tactic-primary)] transition-colors">How data analytics is transforming automotive sales</h3>
                         </div>
                         <!-- Post 2 -->
                         <div class="group cursor-pointer">
                             <div class="bg-gray-100 rounded-3xl aspect-[16/9] mb-6 relative overflow-hidden flex items-center justify-center">
                                 <div class="flex gap-4">
-                                    <div class="w-16 h-16 rounded-full bg-green-400 blur-xl opacity-80"></div>
-                                    <div class="w-20 h-20 rounded-full bg-blue-400 blur-xl opacity-80"></div>
-                                    <div class="w-12 h-12 rounded-full bg-purple-400 blur-xl opacity-80"></div>
+                                    <div class="w-16 h-16 rounded-full bg-[var(--color-tactic-primary)] blur-xl opacity-60"></div>
+                                    <div class="w-20 h-20 rounded-full bg-[var(--color-tactic-primary)] blur-xl opacity-80"></div>
+                                    <div class="w-12 h-12 rounded-full bg-[var(--color-tactic-primary)] blur-xl opacity-40"></div>
                                 </div>
                             </div>
-                            <div class="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Industry Insights</div>
-                            <h3 class="text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">The loan lifecycle: From origination to payoff</h3>
+                            <div class="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Best Practices</div>
+                            <h3 class="text-2xl font-bold text-gray-900 group-hover:text-[var(--color-tactic-primary)] transition-colors">5 KPIs every sales manager should track daily</h3>
                         </div>
                     </div>
                 </div>
